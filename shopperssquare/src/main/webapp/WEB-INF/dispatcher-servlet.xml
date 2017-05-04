@@ -11,8 +11,8 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    ">
    
-   <context:component-scan base-package="net.mnn.shopperssquare.controller"/>
-   <context:component-scan base-package="net.mnn.shoppingbackend.daoimpl"/>
+   <context:component-scan base-package="net.mnn.shopperssquare"/>
+   <context:component-scan base-package="net.mnn.shoppingbackend"/>
    
    <bean id="viewResolver"
    		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
